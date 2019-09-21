@@ -1,0 +1,29 @@
+.playing-cards__container {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 50px;
+    width: 90%;
+}
+.playing-cards__container li {
+    
+}
+.playing-cards__card {
+    min-height: 150px;
+    padding: 35px;
+    font-size: 3rem;
+    cursor: pointer;
+    font-family: 'PT Serif', serif;
+    border: 3px solid #222;
+    background: transparent;
+    border-radius: 10px;
+}
+.playing-cards__card--active {
+    border: tranparent;
+    color: white;
+    background: #222;
+}
+.playing-cards__card[disabled] {
+    cursor: not-allowed;
+}

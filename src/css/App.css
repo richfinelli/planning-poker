@@ -1,0 +1,119 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, 
+blockquote, a, 
+address, cite, code, em, img,
+strong, sub, sup,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+main, article, aside, details, 
+figure, figcaption, footer, header, nav, 
+section, summary, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+main, article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  min-height: 100%;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #222;
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Serif', serif;
+}
+h1 {
+  
+}
+* {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+strong,
+b {
+  font-weight: 800;
+}
+em, i {
+  font-style: italic;
+}
+[hidden], 
+.hide {
+  display: none !important;
+}
+[disabled] {
+  cursor: not-allowed;
+}
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 100px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
